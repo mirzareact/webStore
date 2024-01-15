@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "AdihausDIN Bold";
+    src: url("https://db.onlinewebfonts.com/t/c2001d0359daadcd014fba0e808555d0.eot");
+    src: url("https://db.onlinewebfonts.com/t/c2001d0359daadcd014fba0e808555d0.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c2001d0359daadcd014fba0e808555d0.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c2001d0359daadcd014fba0e808555d0.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/c2001d0359daadcd014fba0e808555d0.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c2001d0359daadcd014fba0e808555d0.svg#AdihausDIN Bold")format("svg");
+}
+
+.font-link{
+    font-family: "AdihausDIN Bold";
+}
