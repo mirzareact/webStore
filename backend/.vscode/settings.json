@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/ba5b8bbf-0f17-47e8-9e65-8931e7207c49/resourceGroups/nodewebstoreapp/providers/Microsoft.Web/sites/nodewebstoreapp",
+  "appService.deploySubpath": "."
+}
