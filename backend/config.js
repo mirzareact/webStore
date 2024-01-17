@@ -2,7 +2,7 @@ export const PORT = 10000;
 export const BACKENDLOCALHOSTURL = "https://webstore-c4wt.onrender.com";
 export const FRONTENDLOCALHOSTURL = "http://localhost:5173";
 export const MONGO_URI =
-  "mongodb+srv://render:render@webshop.4yaogah.mongodb.net/";
+  "mongodb+srv://render:render@webshop.4yaogah.mongodb.net/test";
 export const StripeAPIKEYPRIVATE =
   "sk_test_51OXrlzJpULZZj4e9aYQ9O91cMLvsPslIXp7LDzikCheyqXIj7hTI159bnyzNHHTs6YFQCzvaeSJVWzQlwKYSl15K00sbqkhvdo";
 export const StripeAPIKEYPUBLIC =
