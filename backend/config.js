@@ -2,7 +2,7 @@ export const PORT = 10000;
 export const BACKENDLOCALHOSTURL = "http://localhost:5555";
 export const FRONTENDLOCALHOSTURL = "http://localhost:5173";
 export const mongoDBURL =
-  "mongodb+srv://webshop:hodzic04mirza@gmail.com@webshop.4yaogah.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://render:render@webshop.4yaogah.mongodb.net/?retryWrites=true&w=majority";
 export const StripeAPIKEYPRIVATE =
   "sk_test_51OXrlzJpULZZj4e9aYQ9O91cMLvsPslIXp7LDzikCheyqXIj7hTI159bnyzNHHTs6YFQCzvaeSJVWzQlwKYSl15K00sbqkhvdo";
 export const StripeAPIKEYPUBLIC =
