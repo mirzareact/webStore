@@ -24,7 +24,7 @@ app.use("/checkout-stripe", stripeRoute);
 
 // Connect to MongoDB and start the server
 mongoose
-  .connect(mongoDBURL, { useUnifiedTopology: true, useNewUrlParser: true })
+  .connect(mongoDBURL, { useNewUrlParser: true })
   .then(() => {
     console.log("App connected to the database");
     app.listen(process.env.PORT || PORT, () => {
