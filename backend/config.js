@@ -1,4 +1,4 @@
-export const PORT = 5555;
+export const PORT = 10000;
 export const BACKENDLOCALHOSTURL = "http://localhost:5555";
 export const FRONTENDLOCALHOSTURL = "http://localhost:5173";
 export const mongoDBURL =
