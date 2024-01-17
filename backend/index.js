@@ -1,5 +1,5 @@
 import express from "express";
-import { PORT, mongoDBURL } from "./config.js";
+import { PORT, MONGO_URI } from "./config.js";
 import cors from "cors";
 import mongoose from "mongoose";
 import bodyParser from "body-parser";
@@ -24,7 +24,7 @@ app.use("/checkout-stripe", stripeRoute);
 
 // Connect to MongoDB and start the server
 mongoose
-  .connect(mongoDBURL)
+  .connect(MONGO_URI)
   .then(() => {
     console.log("App connected to the database");
     app.listen(process.env.PORT || PORT, () => {
